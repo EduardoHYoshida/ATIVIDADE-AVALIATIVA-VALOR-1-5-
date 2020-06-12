@@ -1,0 +1,75 @@
+package unicesumar.segundoBimestre;
+
+public class Appassociação {
+	public static void main(String[] args) {
+
+		ClienteOline Jhon = new ClienteOline();
+
+		CompraOline Mercadolivre = new CompraOline();
+
+		Jhon.setNome("Fone de ouvido sony");
+		Mercadolivre.setCodigo("453609");
+		 
+		
+		System.out.println("associação 1 para 0..1 bidirecional");
+		System.out.println("Jhon:" + Jhon.getNome());
+		System.out.println("Mercadolivre:" + Mercadolivre.getCodigo());
+		System.out.println("Mercadolivre:" + Mercadolivre.getEndereço());
+
+		System.out.println("//---------------------------------------------------------------------");
+
+		Avião Latam = new Avião();
+
+		Passageiro Anna = new Passageiro();
+		Passageiro Ireneu = new Passageiro();
+		Passageiro Sara = new Passageiro();
+
+		Anna.setNome("Anna");
+		Anna.setRG("45345435");
+		Ireneu.setNome("Ireneu");
+		Ireneu.setRG("2556776");
+		Sara.setNome("Sara");
+		Sara.setRG("57684689");
+		Latam.setCodigoVoo("357454");
+		Latam.setModeloAeronave("Boing737-800");
+
+		System.out.println("associação 1 para 1..* unidirecional");
+		System.out.println(Anna.getNome());
+		System.out.println(Anna.getRG());
+		System.out.println(Ireneu.getNome());
+		System.out.println(Ireneu.getRG());
+		System.out.println(Sara.getNome());
+		System.out.println(Sara.getRG());
+		System.out.println(Latam.getCodigoVoo());
+		System.out.println(Latam.getModeloAeronave());
+		System.out.println("//---------------------------------------------------------------------");
+
+		Pessoa Carlos = new Pessoa();
+		Pessoa Rodrigo = new Pessoa();
+		Pessoa Paulo = new Pessoa();
+		Pessoa Laura = new Pessoa();
+		Pessoa Amanda = new Pessoa();
+
+		Endereço avenidaGuedner = new Endereço();
+		Endereço avenidaTiradentes = new Endereço();
+
+		Carlos.setNome("avenida Guedner");
+		Rodrigo.setNome("avenida Guedner ");
+		Amanda.setNome("avenida Guedner ");
+		Paulo.setNome("avenida Tiradentes ");
+		Laura.setNome("avenida Tiradentes ");
+
+		System.out.println("associação 0..* para 0..* bidirecional");
+		System.out.println("Carlos:" + Carlos.getNome());
+		System.out.println("Rodrigo:" + Rodrigo.getNome());
+		System.out.println("Amanda:" + Amanda.getNome());
+		System.out.println("Paulo:" + Paulo.getNome());
+		System.out.println("Laura:" + Laura.getNome());
+		System.out.println("Pessoa:" + avenidaGuedner.getNome());
+		System.out.println("Pessoa:" + avenidaTiradentes.getNome());
+		System.out.println("Endereço:" + avenidaGuedner.getNome());
+		System.out.println("Endereço:" + avenidaTiradentes.getNome());
+
+	}
+
+}
