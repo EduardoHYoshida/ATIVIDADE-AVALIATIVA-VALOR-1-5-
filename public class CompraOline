@@ -1,0 +1,31 @@
+package unicesumar.segundoBimestre;
+
+public class CompraOline {
+	private String codigo; 
+	private String TotalValor;        
+	private String endereço;  
+
+	public String getCodigo() {
+		return codigo;
+	}
+
+	public void setCodigo(String codigo) {
+		this.codigo = codigo;
+	}
+
+	public String gettotalValor() {
+		return TotalValor;
+	}
+
+	public void setTotalValor(String TotalValor) {
+		this.TotalValor = TotalValor;
+	}
+	
+	public String getEndereço() {
+		return endereço;
+	}
+
+	public void setEndereço(String endereço) {
+		this.endereço = endereço;
+	}
+}
