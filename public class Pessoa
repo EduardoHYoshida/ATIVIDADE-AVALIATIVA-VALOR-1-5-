@@ -1,0 +1,23 @@
+package unicesumar.segundoBimestre;
+
+public class Pessoa {
+	private String nome;
+	private Endereço endereço;
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public Endereço getEndereço() {
+		return endereço;
+	}
+
+	public void setEndereço(Endereço endereço) {
+		this.endereço = endereço;
+	}
+
+}
