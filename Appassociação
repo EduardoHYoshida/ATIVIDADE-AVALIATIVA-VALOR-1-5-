@@ -3,16 +3,16 @@ package unicesumar.segundoBimestre;
 public class Appassociação {
 	public static void main(String[] args) {
 
-		ClienteOline Jhon = new ClienteOline();
+		ClienteOline Pessoa = new ClienteOline();
 
 		CompraOline Mercadolivre = new CompraOline();
 
-		Jhon.setNome("Fone de ouvido sony");
+		Pessoa.setNome("Jhon Carlos Silva");
 		Mercadolivre.setCodigo("453609");
 		 
 		
 		System.out.println("associação 1 para 0..1 bidirecional");
-		System.out.println("Jhon:" + Jhon.getNome());
+		System.out.println("Pessoa:" + Pessoa.getNome());
 		System.out.println("Mercadolivre:" + Mercadolivre.getCodigo());
 		System.out.println("Mercadolivre:" + Mercadolivre.getEndereço());
 
