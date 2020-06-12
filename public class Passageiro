@@ -5,16 +5,16 @@ public class Passageiro {
      private String RG;
      
      public String getNome() {
-		return nome;
-	}
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
-	public String getRG() {
-		return RG;
-	}
-	public void setRG(String rG) {
-		this.RG = rG;
-	}
+	 return nome;
+     }
+     public void setNome(String nome) {
+	 this.nome = nome;
+     }
+     public String getRG() {
+	 return RG;
+     }
+     public void setRG(String rG) {
+	 this.RG = rG;
+     }
      
 }
