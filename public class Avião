@@ -1,0 +1,26 @@
+package unicesumar.segundoBimestre;
+
+public class Avião {
+    private String prefixo;
+    private String codigoVoo;
+	private String modeloAeronave;
+    
+	public String getPrefixo() {
+		return prefixo;
+	}
+	public void setPrefixo(String prefixo) {
+		this.prefixo = prefixo;
+	}
+	public String getCodigoVoo() {
+		return codigoVoo;
+	}
+	public void setCodigoVoo(String codigoVoo) {
+		this.codigoVoo = codigoVoo;
+	}
+	public String getModeloAeronave() {
+		return modeloAeronave;
+	}
+	public void setModeloAeronave(String modeloAeronave) {
+		this.modeloAeronave = modeloAeronave;
+	}
+}
