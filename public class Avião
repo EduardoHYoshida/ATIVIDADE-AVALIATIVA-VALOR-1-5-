@@ -3,7 +3,7 @@ package unicesumar.segundoBimestre;
 public class Avião {
     private String prefixo;
     private String codigoVoo;
-	private String modeloAeronave;
+    private String modeloAeronave;
     
 	public String getPrefixo() {
 		return prefixo;
